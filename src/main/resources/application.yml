@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/artportal?useSSL=false&serverTimezone=UTC&useLegacyDatetimeCode=false
+    username: root
+    password: Avengers@3000
+    initialize: true
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database: mysql
+
+server:
+  port: 8080
